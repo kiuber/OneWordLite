@@ -1,0 +1,25 @@
+
+<!--pages/square/index.wxml-->
+<view>
+  <view wx:for="{{wordList}}" wx:for-item="item" wx:key="{{wordList.id}}" class="word">
+    <view class="weui-panel">
+
+      <!--<view class="weui-panel__bd">-->
+      <view class="weui-media-box weui-media-box_text">
+        <view bindtap="detail" data-index="{{index}}">
+          <text class="word-zi" data-index="{{index}}">{{item.word}}</text>
+          <view class="weui-media-box__desc" data-index="{{index}}">
+            {{item.wordDetail.pinyin}}
+          </view>
+        </view>
+        <view class="weui-media-box__info">
+          <view class="weui-media-box__info__meta">{{item.createdAt}}</view>
+          <view class="weui-media-box__info__meta weui-media-box__info__meta_extra" bindtap="like" data-id="{{item.objectId}}" data-index="{{index}}"> 赞一下 {{item.like}}</view>
+        </view>
+
+        <!--</view>-->
+      </view>
+    </view>
+  </view>
+  <view class="weui-footer">下拉刷新换一批~</view>
+</view>

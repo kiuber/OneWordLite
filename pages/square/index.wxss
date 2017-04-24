@@ -1,0 +1,16 @@
+/* pages/square/index.wxss */
+@import '../../app.wxss';
+
+.word {
+  text-align: center;
+}
+
+.word-zi {
+  color: red;
+  font-size: 35px;
+}
+
+.tip {
+  color: gainsboro;
+  font-size: 13pt;
+}

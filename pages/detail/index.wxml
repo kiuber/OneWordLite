@@ -1,0 +1,21 @@
+
+<!--pages/detail/index.wxml-->
+<view class="view">
+  <view class="word" bindlongtap="query">
+    <view>{{wordDetail.pinyin}}</view>
+    <view class="word-zi">{{wordDetail.zi}}</view>
+    <view class="word-bushou">
+      <text>部首 {{wordDetail.bushou}}</text>
+      <text> 笔画数 {{wordDetail.bihua}}</text>
+    </view>
+
+    <!--<view>id {{wordDetail.id}}</view>-->
+    <view wx:if="{{wordDetail.jijie!=''}}">简解 {{wordDetail.jijie}}</view>
+
+    <!--<view>拼音 {{wordDetail.py}}</view>-->
+
+    <!--<view>五笔 {{wordDetail.wubi}}</view>-->
+    <view wx:if="{{wordDetail.xiangjie!=''}}">详解 {{wordDetail.xiangjie}}</view>
+    <button type="warn" size="mini" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="warn" class="btn-warn">不显示？</button>
+  </view>
+</view>

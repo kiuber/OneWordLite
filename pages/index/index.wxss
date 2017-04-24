@@ -1,0 +1,38 @@
+/**index.wxss**/
+
+.view {
+  margin-top: 30rpx;
+  text-align: center;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 10px;
+}
+
+.word {
+  padding: 20px;
+}
+
+.word-zi {
+  font-size: 35px;
+}
+
+.word-bushou {
+  font-size: 12px;
+}
+
+.btn-default {
+  margin: 5rpx;
+}
+
+.btn-primary {
+  margin: 5rpx;
+}
+
+.btn-warn {
+  margin: 5rpx;
+}

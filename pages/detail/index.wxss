@@ -1,0 +1,18 @@
+/* pages/detail/index.wxss */
+
+.view {
+  margin-top: 30rpx;
+  text-align: center;
+}
+
+.word {
+  padding: 20px;
+}
+
+.word-zi {
+  font-size: 35px;
+}
+
+.word-bushou {
+  font-size: 12px;
+}

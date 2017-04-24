@@ -1,0 +1,19 @@
+
+<!--pages/about/index.wxml-->
+<view class="container">
+  <view>
+    <image src="../../imgs/comment.png" style="width:50rpx;height:50rpx"></image>
+    <contact-button type="default-light" session-from="weapp">点击左侧图标进入客服会话
+    </contact-button>
+  </view>
+  <view>
+    <image src="../../imgs/email.png" style="width:50rpx;height:50rpx"></image>
+    <text> Kiuber.Zhang@gmail.com</text>
+  </view>
+</view>
+<view class="weui-footer">
+  <view class="weui-footer__links">
+    <navigator url="" class="weui-footer__link">一字Lite</navigator>
+  </view>
+  <view class="weui-footer__text">Copyright © 氪星码工作室</view>
+</view>
